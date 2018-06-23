@@ -1,8 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 
-import App from './App'; 
+import Routes form './routes'; 
+
+const App = () => ( 
+
+    <Routes /> 
+); 
 
 
 ReactDOM.render(<App />, document.getElementById('root')); 
