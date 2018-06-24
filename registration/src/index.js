@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom'; 
 import { ApolloProvider } from 'react-apollo'; 
 import { ApolloClient, createNetworkInterface } from 'react-apollo';
 
@@ -8,7 +8,7 @@ import 'antd/dist/antd.css';
 import Routes from './routes'; 
 
 const networkInterface = createNetworkInterface({
-    uri: 'http://localhost:3000/graphql',
+    uri: 'http://localhost:3000/graphql'
 }); 
 
 const client = new ApolloClient({
